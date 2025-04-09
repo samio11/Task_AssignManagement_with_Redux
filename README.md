@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# Task Assign Management with Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![t1](https://github.com/user-attachments/assets/deae8e6c-f3ea-41e5-8103-f9f8fd815e0c)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple task management web application built to practice and demonstrate the core concepts of **Redux** state management. The app is built with **React**, **Vite**, **TypeScript**, and **Redux Toolkit**—providing a fast and efficient development environment.
 
-## Expanding the ESLint configuration
+> ⚠️ Note: This project does not use a database. All data is stored and managed using Redux in the browser memory.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ✅ Add and assign tasks
+- ✏️ Edit and update existing tasks
+- 🗑️ Delete tasks from the list
+- 👨‍💻 Redux Toolkit for centralized state management
+- ⚡ Powered by Vite for super-fast bundling and hot reloads
+- 🧠 Practicing Redux core concepts (store, slices, dispatch, selectors, etc.)
+- 🧼 Clean and simple UI
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- Redux Toolkit
+- Vite
+- Tailwind CSS (if used – add/remove based on your actual stack)
+
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/samio11/Task_AssignManagement_with_Redux.git
+cd Task_AssignManagement_with_Redux
+
+### 2.Run Code
+```bash
+ npm install
+ npm run dev
