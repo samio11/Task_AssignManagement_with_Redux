@@ -6,6 +6,8 @@
 This is a simple task management web application built to practice and demonstrate the core concepts of **Redux** state management. The app is built with **React**, **Vite**, **TypeScript**, and **Redux Toolkit**—providing a fast and efficient development environment.
 
 > ⚠️ Note: This project does not use a database. All data is stored and managed using Redux in the browser memory.
+![redux](https://github.com/user-attachments/assets/9cc5684a-b0b6-4967-a4be-23629fba97f0)
+
 
 ---
 
